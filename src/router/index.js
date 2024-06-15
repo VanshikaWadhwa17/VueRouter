@@ -1,11 +1,12 @@
 // Define our routing rules
 //  on url/home- give HomeView
 //  on url/about- give AboutView
-import { createRouter,createWebHistory } from "vue-router";
+import { createRouter,createWebHistory } from "vue-router"
 import HomeView from "../views/HomeView.vue"
 import AboutView from "../views/AboutView.vue"
 import CarView from "../views/CarView.vue"
 import ContactView from "../views/ContactView.vue"
+import NotFoundView from "../views/404View.vue"
 
 
 const router =createRouter({
@@ -32,7 +33,12 @@ const router =createRouter({
                     component: ContactView
                 }
             ]
-        }
+        },
+        {
+            path: "/:catchall(.*)*", //check documentation for other regex patterns
+            name: "Not found",
+            component: NotFoundView
+        },
     ]
 })
 export default router
