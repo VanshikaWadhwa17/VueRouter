@@ -19,6 +19,10 @@ const router =createRouter({
             component: HomeView
         },
         {
+            path: "/home",
+            redirect: "/" 
+        },
+        {
             path: "/about",
             name: "about",
             component: AboutView
