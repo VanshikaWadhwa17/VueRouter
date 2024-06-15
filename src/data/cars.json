@@ -35,8 +35,8 @@
         "price":20000,
         "year":2017,
         "contact":{
-            "dealer":"Vanshika",
-            "number": "111-111-1111"
+            "dealer":"Ritika",
+            "number": "666-666-6666"
         }
     },
     {
@@ -52,6 +52,7 @@
     {
         "id":6,
         "name":"Nano",
+
         "price":2000,
         "year":2028,
         "contact":{
