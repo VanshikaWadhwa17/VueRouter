@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Chevy",
+        "price":15000,
+        "year":2015
+    },
+    {
+        "id":2,
+        "name":"Land Rover",
+        "price":85000,
+        "year":2013
+    },
+    {
+        "id":3,
+        "name":"Honda City",
+        "price":10000,
+        "year":2010
+    },
+    {
+        "id":4,
+        "name":"Ford",
+        "price":20000,
+        "year":2017
+    },
+    {
+        "id":5,
+        "name":"Maruti Suzuki",
+        "price":10000,
+        "year":2014
+    },
+    {
+        "id":6,
+        "name":"Nano",
+        "price":2000,
+        "year":2028
+    }
+]
